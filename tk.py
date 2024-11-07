@@ -33,7 +33,7 @@ class WinGUI(Tk):
         self.minsize(width=width, height=height)
 
     def __tk_label_song_name(self, parent):
-        label = Label(parent, text="歌手 - 歌名（按回车触发预览）", anchor="w")
+        label = Label(parent, text="歌名 - 歌手（按回车触发预览）", anchor="w")
         label.place(relx=0.0266, rely=0.0218, relwidth=2, relheight=0.0655)
         return label
 
